@@ -43,6 +43,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/hammerhead/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/lge/hammerhead/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
+    vendor/lge/hammerhead/proprietary/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml \
+    vendor/lge/hammerhead/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -51,8 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
     vendor/lge/hammerhead/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/lge/hammerhead/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/lge/hammerhead/proprietary/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml \
-    vendor/lge/hammerhead/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/lge/hammerhead/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lge/hammerhead/proprietary/etc/permissions/serviceitems.xml:system/etc/permissions/serviceitems.xml \
     vendor/lge/hammerhead/proprietary/etc/qcril.db:system/etc/qcril.db \
