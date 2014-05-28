@@ -16,11 +16,6 @@
 
 # blob(s) necessary for hammerhead hardware
 PRODUCT_COPY_FILES += \
-    vendor/lge/hammerhead/proprietary/app/OmaDmclient.apk:system/app/OmaDmclient.apk \
-    vendor/lge/hammerhead/proprietary/app/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk \
-    vendor/lge/hammerhead/proprietary/app/shutdownlistener.apk:system/app/shutdownlistener.apk \
-    vendor/lge/hammerhead/proprietary/app/TimeService.apk:system/app/TimeService.apk \
-    vendor/lge/hammerhead/proprietary/app/UpdateSetting.apk:system/app/UpdateSetting.apk \
     vendor/lge/hammerhead/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/hammerhead/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/lge/hammerhead/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
@@ -43,8 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/lge/hammerhead/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/lge/hammerhead/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
-    vendor/lge/hammerhead/proprietary/etc/permissions/com.google.android.camera2.xml:system/etc/permissions/com.google.android.camera2.xml \
-    vendor/lge/hammerhead/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/hammerhead/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -58,9 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/etc/qcril.db:system/etc/qcril.db \
     vendor/lge/hammerhead/proprietary/etc/sensor_def_hh.conf:system/etc/sensor_def_hh.conf \
     vendor/lge/hammerhead/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/lge/hammerhead/proprietary/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
-    vendor/lge/hammerhead/proprietary/framework/com.google.android.camera2.jar:system/framework/com.google.android.camera2.jar \
-    vendor/lge/hammerhead/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/lge/hammerhead/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/lge/hammerhead/proprietary/framework/serviceitems.jar:system/framework/serviceitems.jar \
     vendor/lge/hammerhead/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
